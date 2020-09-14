@@ -23,8 +23,8 @@ var createCityList = function(citySearchList) {
 var cityWeather = function(city, citySearchList) {
     createCityList(citySearchList);
     
-    var weatherURL = "http://api.openweathermap.org/data/2.5/weather?q=" + city + "&APPID=76292c20961c0a6755cbcf29b4b98e06";
-    var forecastURL = "http://api.openweathermap.org/data/2.5/forecast?q=" + city + "&APPID=76292c20961c0a6755cbcf29b4b98e06";
+    var weatherURL = "https://api.openweathermap.org/data/2.5/weather?q=" + city + "&APPID=76292c20961c0a6755cbcf29b4b98e06";
+    var forecastURL = "https://api.openweathermap.org/data/2.5/forecast?q=" + city + "&APPID=76292c20961c0a6755cbcf29b4b98e06";
     
     var latitude = "";
     var longitude = "";
